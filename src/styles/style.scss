@@ -199,7 +199,7 @@ align-items: center;
 
 @media screen and (max-width: 425px){
     body{
-        width: 107.5vw;
+        width: 99.9vw;
         overflow-y: auto;
     }
     .app-header{
@@ -243,5 +243,33 @@ align-items: center;
     }
     .about-us-content{
         margin: 10px 29px;
+    }
+    .modal-wrapper{
+        .modal-window{
+            width: 255px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            .closebutton{
+                width: 14px;
+                height: 14px; 
+                font-size: 10px;
+            margin-left: 241px;               
+            }
+            .modal-main-part{
+                div{
+                    height: 45px;
+                    p{
+                        font-size: 10px;
+                    }
+                    .modal-input{
+                        font-size: 11px;
+                        width: 110px;
+                        padding: 6px 10px;
+                        margin-top: 5px;
+                    }
+                }                    
+            }
+        }
     }
 }
