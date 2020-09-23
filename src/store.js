@@ -15,13 +15,13 @@ const store = new Vuex.Store({
             'December'
         ],
         dayOfWeek: [
+            'Sunday',
             'Monday',
             'Tuesday',
             'Wednesday',
             'Thursday',
             'Friday', 
-            'Saturday',
-            'Sunday'
+            'Saturday'            
         ]
     },
     mutations: {
