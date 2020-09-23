@@ -196,3 +196,52 @@ align-items: center;
         }
     }
 }
+
+@media screen and (max-width: 425px){
+    body{
+        width: 107.5vw;
+        overflow-y: auto;
+    }
+    .app-header{
+        margin: 25px 55px;
+        .header-wrapper{
+            .head-logo{
+                height: 25px;
+            }
+            .group-button{        
+                width: 147px;        
+                button{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .main-content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 1fr;
+        .description{
+            .description-wrapper{
+                .description-title{
+                    font-size: 25px;
+                    line-height: 32px;
+
+                }
+                .description-context{
+                    font-size: 15px;
+                    margin-top: 20px;
+                    line-height: 20px;
+                }
+            }
+        }
+        .calendar{
+            .one-calendar{
+                thead{
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+    .about-us-content{
+        margin: 10px 29px;
+    }
+}
